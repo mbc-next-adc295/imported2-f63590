@@ -1,0 +1,7 @@
+name: normal-ci
+on: [push]
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo NORMAL_WORKFLOW_RAN
